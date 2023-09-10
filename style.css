@@ -6,6 +6,7 @@ body {
     display: flex;
     align-items: center;
     margin-left: 600px;
+    padding-top: 20px;
 
 }
 
@@ -17,6 +18,10 @@ p {
 .header-section {
     display: flex;
     justify-content: space-between;
+}
+
+.spacing-discribe {
+    margin-left: 20px;
 }
 
 h1 {
@@ -44,6 +49,7 @@ section {
 
 .image-section {
     width: 50%;
+    margin-bottom: 20px;
 
 }
 
@@ -51,9 +57,119 @@ section {
     width: 70%;
 
 
+
 }
 
 .naveber-item {
 
     margin-right: 50px;
+}
+
+.naveber-item a {
+    font-weight: 700;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.naveber-item a:hover {
+    background-image: linear-gradient(green, red);
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bg-set {
+    background-image: url(images/background.jpg);
+
+
+}
+
+.about {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 60px;
+
+}
+
+.about-me-sec {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+
+}
+
+.name {
+    margin-right: 30px;
+}
+
+.email {
+    margin-right: 30px;
+}
+
+.about-contact {
+    background-image: url(images/bg\ rec.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+
+.what {
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 30px;
+
+}
+
+.what-image {
+    margin-top: 40px;
+}
+
+.second-section {
+    /* width: 100%; */
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.second-section img {
+    width: 50%;
+
+}
+
+.dream-big {
+    width: 100%;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.banner {
+    background-image: linear-gradient(pink, rgb(211, 157, 147));
+}
+
+.dream-big a {
+    font-weight: 700;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.dream-big a:hover {
+    background-image: linear-gradient(green, red);
 }
